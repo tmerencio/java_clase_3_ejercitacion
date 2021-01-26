@@ -9,7 +9,7 @@ public class QuickSortSorterImple <T> implements Sorter<T> {
         int i = (begin-1);
 
         for (int j = begin; j < end; j++) {
-            if (c.compare(arr[j], pivot)) {
+            if (!c.compare(arr[j], pivot)) {
                 i++;
 
                 T swapTemp = arr[i];

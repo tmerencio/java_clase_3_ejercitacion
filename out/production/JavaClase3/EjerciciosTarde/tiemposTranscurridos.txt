@@ -1,0 +1,13 @@
+Bubble Sort:
+
+/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50506:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/tomamerencio/Documents/JavaClase3/out/production/JavaClase3 EjerciciosTarde.MainPerformance
+Tiempo transcurrido: 10124
+
+Process finished with exit code 0
+
+Heap Sort:
+
+/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50521:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/tomamerencio/Documents/JavaClase3/out/production/JavaClase3 EjerciciosTarde.MainPerformance
+Tiempo transcurrido: 56
+
+Process finished with exit code 0
