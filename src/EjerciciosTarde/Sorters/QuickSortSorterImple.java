@@ -1,6 +1,6 @@
 package EjerciciosTarde.Sorters;
 
-import EjerciciosTarde.Comparators.Comparator;
+import java.util.Comparator;
 
 public class QuickSortSorterImple <T> implements Sorter<T> {
 
@@ -9,7 +9,7 @@ public class QuickSortSorterImple <T> implements Sorter<T> {
         int i = (begin-1);
 
         for (int j = begin; j < end; j++) {
-            if (!c.compare(arr[j], pivot)) {
+            if (c.compare(arr[j], pivot) <= 0) {
                 i++;
 
                 T swapTemp = arr[i];

@@ -1,8 +1,10 @@
 package EjerciciosTarde.Comparators;
 
-public class ComparatorStrAscImpl implements Comparator<String>{
+import java.util.Comparator;
+
+public class ComparatorStrAscImpl implements Comparator<String> {
     @Override
-    public boolean compare(String a, String b) {
-        return a.compareTo(b) > 0;
+    public int compare(String a, String b) {
+        return a.compareTo(b);
     }
 }

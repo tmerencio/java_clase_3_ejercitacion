@@ -1,8 +1,10 @@
 package EjerciciosTarde.Comparators;
 
-public class ComparatorIntAscImpl implements Comparator<Integer>{
+import java.util.Comparator;
+
+public class ComparatorIntAscImpl implements Comparator<Integer> {
     @Override
-    public boolean compare(Integer a, Integer b) {
-        return a > b;
+    public int compare(Integer a, Integer b) {
+        return a - b;
     }
 }

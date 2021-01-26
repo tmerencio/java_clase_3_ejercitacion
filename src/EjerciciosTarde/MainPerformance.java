@@ -1,10 +1,10 @@
 package EjerciciosTarde;
 
-import EjerciciosTarde.Comparators.Comparator;
 import EjerciciosTarde.Comparators.ComparatorIntAscImpl;
 import EjerciciosTarde.Sorters.Sorter;
 
 import java.io.IOException;
+import java.util.Comparator;
 
 public class MainPerformance {
     public static void main(String[] args) throws IOException {
